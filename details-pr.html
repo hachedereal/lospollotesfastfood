@@ -88,102 +88,93 @@
 
 
 	<!-- Content -->
-	<div class="banner">
-	    <div class="banner-body">
-	        <h3 class="text-uppercase">Bienvenido a Los Pollotes FastFood Republica Dominicana</h3>
-	        <p>100% Dominicano, el sazon que te gusta</p>
-	        <a href="menu.html" class="btn btn-warning"><i class="fas fa-utensils fa-fw"></i> &nbsp; Ir al menu</a>
-	    </div>
-	</div>
-
 	<div class="container container-web-page">
-	    <h3 class="text-center text-uppercase poppins-regular font-weight-bold">Nuestros servicios</h3>
-	    <br>
-	    <div class="row">
-	        <div class="col-12 col-sm-6 col-md-4">
-	            <p class="text-center"><i class="fas fa-shipping-fast fa-5x"></i></p>
-	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Envíos a domicilio</h5>
-	            <p class="text-center">Tenemos servicio delivery a toda la zona con servicio eficaz garantizado.</p>
-	        </div>
-	        <div class="col-12 col-sm-6 col-md-4">
-	            <p class="text-center"><i class="fas fa-store-alt fa-5x"></i></p>
-	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Direccion de nuestras sucursales</h5>
-	            <p class="text-center">Estamos ubicados en: C/ Emma Balaguer, Plaza Nu;ez Local 1A Los Girasoles II <br> Av. Monumental <br> KM9 Autopista Duarte <br> Av Isabel Aguiar </p>
+	    <h3 class="font-weight-bold poppins-regular text-uppercase">Detalles del servicio</h3>
+	    <hr>
+	    <div class="container-fluid">
+	        <div class="row">
+	            <div class="col-12 col-lg-5">
+	                <!--cover-->
+	                <figure class="full-box">
+	                    <img class="img-fluid" src="./assets/platillos/details_chicken_strips.png" alt="platillo_">
+	                </figure>
+
+	                <!-- Galery -->
+	                <h5 class="poppins-regular text-uppercase" style="padding-top: 70px;">Galería de imágenes</h5>
+	                <hr>
+	                <div class="galery-details full-box">
+
+	                    <!--cover-->
+	                    <figure class="full-box">
+	                        <a data-fslightbox="gallery" href="./assets/platillos/chicken_strips.png">
+	                            <img class="img-fluid" src="./assets/platillos/chicken_strips.png" alt="platillo_">
+	                        </a>
+	                    </figure>
+
+	                    <!--otras-->
+	                    <figure class="full-box">
+	                        <a data-fslightbox="gallery" href="./assets/platillos/chicken_strips.png">
+	                            <img class="img-fluid" src="./assets/platillos/chicken_strips.png" alt="platillo_">
+	                        </a>
+	                    </figure>
+
+	                    <figure class="full-box">
+	                        <a data-fslightbox="gallery" href="./assets/platillos/chicken_strips.png">
+	                            <img class="img-fluid" src="./assets/platillos/chicken_strips.png" alt="platillo_">
+	                        </a>
+	                    </figure>
+
+	                </div>
+	            </div>
+	            <div class="col-12 col-lg-7">
+
+	                <h4 class="font-weight-bold poppins-regular tittle-details">Pechurinas</h4>
+
+	                <p class="text-justify lead" style="padding: 40px 0;">
+	                    <span class="text-info lead font-weight-bold">Descripción:</span><br>
+	                    Deliciosas Pechurinas con sabor a Limon con Sabor unico y Exquisito, puede optar por papas fritas o fritos al momento de hacer su pedido.
+	                </p>
+
+	                <p class="lead font-weight-bold">Precio: $180</p>
+
+	                <!-- Agregar al carrito -->
+	                <form action="" style="padding-top: 70px;">
+	                    <div class="container-fluid">
+	                        <div class="row">
+	                            <div class="col-12 col-md-6">
+	                                <div class="form-outline mb-4">
+	                                    <input type="text" value="1" class="form-control text-center" id="product_cant" pattern="[0-9]{1,10}" maxlength="10" >
+	                                    <label for="product_cant" class="form-label">Cantidad</label>
+	                                </div>
+	                            </div>
+	                            <div class="col-12 col-md-6 text-center">
+	                                <button type="submit" class="btn btn-info"><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar al carrito</button>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </form>
+
+	                <!-- Actualizar el carrito -->
+	                <form action="" style="padding-top: 70px;">
+	                    <div class="container-fluid">
+	                        <div class="row">
+	                            <div class="col-12 col-md-6">
+	                                <div class="form-outline mb-4">
+	                                    <input type="text" value="1" class="form-control text-center" id="product_cant" pattern="[0-9]{1,10}" maxlength="10" >
+	                                    <label for="product_cant" class="form-label">Cantidad</label>
+	                                </div>
+	                            </div>
+	                            <div class="col-12 col-md-6 text-center">
+	                                <button type="submit" class="btn btn-success"><i class="fas fa-sync fa-fw"></i> &nbsp; Actualizar carrito</button>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </form>
+	            </div>
 	        </div>
 	    </div>
 	</div>
 
-	<hr>
-
-	<div class="container-fluid container-web-page">
-	    <h3 class="text-center text-uppercase poppins-regular font-weight-bold">Nuestros servicios más populares</h3>
-	    <div class="container-cards full-box">
-
-	        <div class="card shadow-1-strong">
-	            <img class="card-img-top" src="./assets/img/banner_2.jpg" alt="nombre_platillo">
-	            <div class="card-body text-center">
-	                <h5 class="card-title font-weight-bold">Pollo Frtito</h5>
-	                <p class="card-text lead"><span class="badge bg-secondary">$190</span></p>
-	            </div>
-	            <div class="card-body text-center">
-	                <button type="button" class="btn btn-success btn-sm"><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
-	                &nbsp; &nbsp;
-	                <a href="details-pf.html" class="btn btn-info btn-sm"><i class="fas fa-utensils fa-fw"></i> &nbsp; Detalles</a>
-	            </div>
-	        </div>
-
-	        <div class="card shadow-1-strong">
-	            <img class="card-img-top" src="./assets/img/banner_1.jpg" alt="nombre_platillo">
-	            <div class="card-body text-center">
-	                <h5 class="card-title font-weight-bold">Pechurinas</h5>
-	                <p class="card-text lead"><span class="badge bg-secondary">$180</span></p>
-	            </div>
-	            <div class="card-body text-center">
-	                <button type="button" class="btn btn-success btn-sm"><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
-	                &nbsp; &nbsp;
-	                <a href="details-pr.html" class="btn btn-info btn-sm"><i class="fas fa-utensils fa-fw"></i> &nbsp; Detalles</a>
-	            </div>
-	        </div>
-
-	        <div class="card shadow-1-strong">
-	            <img class="card-img-top" src="./assets/img/banner_3.jpg" alt="nombre_platillo">
-	            <div class="card-body text-center">
-	                <h5 class="card-title font-weight-bold">Pollo al Horno</h5>
-	                <p class="card-text lead"><span class="badge bg-secondary">$190</span></p>
-	            </div>
-	            <div class="card-body text-center">
-	                <button type="button" class="btn btn-success btn-sm"><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
-	                &nbsp; &nbsp;
-	                <a href="details-ph.html" class="btn btn-info btn-sm"><i class="fas fa-utensils fa-fw"></i> &nbsp; Detalles</a>
-	            </div>
-	        </div>
-
-	    </div>
-	    <br>
-	    <p class="text-center"><a href="menu.html" class="btn btn-primary"><i class="fas fa-utensils fa-fw"></i> &nbsp; Ir al menu</a></p>
-	</div>
-
-	<hr>
-
-	<div class="container container-web-page">
-	    <div class="row justify-content-md-center">
-	        <div class="col-12 col-md-6">
-	            <figure class="full-box">
-	                <img src="./assets/img/registration.png" alt="registration" class="img-fluid">
-	            </figure>
-	        </div>
-	        <div class="w-100"></div>
-	        <div class="col-12 col-md-6">
-	            <h3 class="text-center text-uppercase poppins-regular font-weight-bold">Crea tu cuenta</h3>
-	            <p class="text-justify">
-	                Crea tu cuenta para poder realizar pedidos hasta la puesta de tu casa, es muy fácil y rápido.
-	            </p>
-	            <p class="text-center">
-	                <a href="registration.html" class="btn btn-primary" >Crear cuenta</a>
-	            </p>
-	        </div>
-	    </div>
-	</div>
 
 	<!-- Footer -->
 	<footer class="footer">
@@ -221,10 +212,13 @@
 	        </div>
 	    </div>
 	</footer>
-
-
+	
+	
 	<!-- MDBootstrap V5 -->
 	<script src="./js/mdb.min.js" ></script>
+
+	<!-- fslightbox -->
+	<script src="./js/fslightbox.js" ></script>
 
 	<!-- General scripts -->
 	<script src="./js/main.js" ></script>
